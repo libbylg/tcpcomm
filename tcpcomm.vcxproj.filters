@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="tcpcomm.h" />
+    <ClInclude Include="os.h" />
+    <ClInclude Include="tcpcomm_default_object.h" />
+    <ClInclude Include="CTcpError.h" />
+    <ClInclude Include="CTcpFDSet.h" />
+    <ClInclude Include="CTcpThread.h" />
+    <ClInclude Include="CTcpStream.h" />
+    <ClInclude Include="CTcpListenerT.h" />
+    <ClInclude Include="CTcpSelector.h" />
+    <ClInclude Include="CTcpConnector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tcpcomm.cpp" />
+    <ClCompile Include="CTcpStream.cpp" />
+    <ClCompile Include="CTcpSelector.cpp" />
+    <ClCompile Include="CTcpConnector.cpp" />
+  </ItemGroup>
+</Project>
